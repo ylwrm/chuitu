@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "http-server dist",
     "dist": "tsc && node cmd/dist.js"
   },
   "dependencies": {
