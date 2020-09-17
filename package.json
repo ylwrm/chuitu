@@ -1,8 +1,8 @@
 {
   "name": "chuitu",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "types": "dist/Types/index.d.ts",
   "scripts": {
     "serve": "http-server dist",
     "dist": "tsc && node cmd/dist.js"
@@ -16,6 +16,18 @@
     "path": "0.12.7",
     "fs": "0.0.1-security"
   },
+  "files": [
+    "/dist/Types/",
+    "/types/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylwrm/chuitu.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylwrm/chuitu/issues"
+  },
+  "homepage": "https://github.com/ylwrm/chuitu#readme"
 }
