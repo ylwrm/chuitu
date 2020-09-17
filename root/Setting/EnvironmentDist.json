@@ -1,0 +1,5 @@
+{
+    "origin": "${origin}",
+    "hostname": "${hostname}",
+    "port": "${port}"
+}

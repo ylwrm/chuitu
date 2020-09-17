@@ -1,0 +1,20 @@
+{
+  "name": "chuitu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "tsc && node cmd/dist.js"
+  },
+  "dependencies": {
+    "es6-promise": "4.2.8"
+  },
+  "devDependencies": {
+    "ncp": "2.0.0",
+    "glob": "7.1.6",
+    "path": "0.12.7",
+    "fs": "0.0.1-security"
+  },
+  "author": "",
+  "license": "ISC"
+}
